@@ -1,0 +1,40 @@
+.container{
+    background-color: #ffffff;
+	min-height: 100vh;
+	padding: 100px;
+	position: relative;
+	width: 100%;
+    z-index: 10;
+    margin-bottom: 400px;
+}
+
+
+/* footer*/
+
+.footer {
+    align-items: center;
+	background-color: #262626;
+	bottom: 0;
+	color: rgb(231, 223, 223);
+	height: 400px;
+	position: fixed;
+	width: 100%;
+    z-index: 1;
+}
+
+
+.footer-content div:last-child{
+	margin-bottom: 1rem;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	justify-items: center;
+	width: 100%;
+	border-top: solid  rgb(231, 223, 223);
+	border-width: 1px;
+	padding: 1px;
+	font-size: small;
+}
+
+    
+
