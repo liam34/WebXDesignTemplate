@@ -5,7 +5,7 @@
 	position: relative;
 	width: 100%;
     z-index: 10;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 }
 
 
@@ -16,25 +16,77 @@
 	background-color: #262626;
 	bottom: 0;
 	color: rgb(231, 223, 223);
-	height: 400px;
+	height: 200px;
 	position: fixed;
 	width: 100%;
+	text-align: center;
     z-index: 1;
 }
 
-
-.footer-content div:last-child{
-	margin-bottom: 1rem;
-	position: fixed;
+.footer-content{
 	bottom: 0;
-	text-align: center;
-	justify-items: center;
+	position: absolute;
 	width: 100%;
-	border-top: solid  rgb(231, 223, 223);
-	border-width: 1px;
-	padding: 1px;
+}
+
+.footer-content :first-child{
+	font-size: small;
+	margin-bottom: 0;
+}
+
+.footer-content :last-child{
 	font-size: small;
 }
 
     
 
+/**footer social media**/
+
+.socialContent{
+	background-color: rgb(241, 232, 219);
+	height:2.7rem;
+}
+
+.socialContent ul{
+	padding: .5rem;
+}
+
+.socialContent ul li{
+	list-style: none;
+	display: inline;
+	padding-left: 1rem;	
+}
+
+* :hover{
+	size: 2rem;
+}
+
+/**footer column**/
+.column {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	height: 160px;
+  }
+
+  .column ul li{
+	display: inline;
+	font-size: x-small;
+  }
+
+
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+@media screen and (max-width: 600px) {
+.column {
+	  width: 100%;
+}
+}
